@@ -11,6 +11,7 @@ fácilmente integrable en proyectos de C, utilizándola como
 herramienta (función) según la necesidad del propio proyecto.
 
 CARACTERÍSTICAS PRINCIPALES
+
 La programación de get_next_line(fd) implica el manejo de un file
 descriptor proporcionado por nosotros, en el que leemos línea a
 línea mediante la llamada repetida de la función, en un bucle. La
@@ -22,20 +23,27 @@ correctamente, permitiendo en última instancia leer archivos
 grandes sin leerlo todo de una vez en memoria.
 
 ARCHIVOS DEL PROYECTO
+
 •get_next_line.c: Contiene la función principal del programa, ademas de las
 auxiliares de este.
+
 •get_next_line_utils.c: Contiene las funciones que ayudan a la consecuión de
 la nueva línea.
+
 •get_next_line.h: Es el header. Contiene todas las funciones, librerías y macros
 necesarios en el programa.
+
 •get_next_line_bonus.c: Casi mismo codigo que sin bonús, solo cambiada una
 parte para cumplir con el bonus.
+
 •get_next_line_utils_bonus.c: Igual. Casi mismo codigo que sin bonús, solo
 cambiada una parte para cumplir con el bonus. En este caso, es el mismo.
+
 •get_next_line_bonus.h: También es el header pero del bonus. Mismo código
 pero con un macro añadido (MAX_FD).
 
 BONUS
+
 Consiste en hacer nuestro programa capaz de gestionar varios
 múltiples a la vez sin perder el hilo de la lectura en cada uno de
 los fd mandados. Simplemente hay que hacer la estática doble
