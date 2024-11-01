@@ -1,4 +1,6 @@
-GET_NEXT_LINE (+ BONUS)
+<h1 align="center">
+  <img src="https://iili.io/2odPQgn.png" alt="gnl header krub" width="1200" height="auto" style="align: bottom;"> 
+</h1>
 
 Este proyecto consiste en desarrollar una función personalizada,
 get_next_line(fd), que se encarga de leer una línea de texto desde
